@@ -4,7 +4,7 @@ Mandatory Part:
 
 On the page with the final score, add a link "View Correct Answers" as shown in the "Test Result" frame. When clicked, this link will navigate the user to the page with the correct answers, as depicted in the "Correct Answers (Option 1)" frame.
 The page should display all the test questions received from the server (you will need to request them again on this page). Answers that the user selected correctly should be highlighted in green, while those selected incorrectly should be highlighted in red.
-To obtain the correct answers, send a GET request to the address https://testologia.ru/get-quiz-right?id=1, where id is the test identifier.
+To obtain the correct answers, send a GET request to the address ..., where id is the test identifier.
 The server will respond with the IDs of the correct options for the entire test.
 In case of difficulties, refer to the hints.
 Optional but Recommended:
